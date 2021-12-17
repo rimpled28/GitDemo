@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="7" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-29T15:32:11 CST" name="Loan Department" finished-at="2021-11-29T15:32:11 CST" duration-ms="172">
+    <groups>
+      <group name="smoke">
+        <method signature="TestScenario3.WebLogin()[pri:0, instance:Test.TestScenario3@6babf3bf]" name="WebLogin" class="Test.TestScenario3"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2021-11-29T15:32:11 CST" name="Home Loan" finished-at="2021-11-29T15:32:11 CST" duration-ms="61">
+      <class name="Test.TestScenario1">
+        <test-method signature="Demo3()[pri:0, instance:Test.TestScenario1@355ce81c]" started-at="2021-11-29T15:32:11 CST" name="Demo3" finished-at="2021-11-29T15:32:11 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo3 -->
+      </class> <!-- Test.TestScenario1 -->
+      <class name="Test.TestScenario2">
+        <test-method signature="Call()[pri:0, instance:Test.TestScenario2@29647f75]" started-at="2021-11-29T15:32:11 CST" name="Call" finished-at="2021-11-29T15:32:11 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Call -->
+      </class> <!-- Test.TestScenario2 -->
+      <class name="Test.TestScenario">
+        <test-method signature="Demo(java.lang.String)[pri:0, instance:Test.TestScenario@4f67eb2a]" started-at="2021-11-29T15:32:11 CST" name="Demo" finished-at="2021-11-29T15:32:11 CST" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qaclickacademy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method signature="Demo2()[pri:0, instance:Test.TestScenario@4f67eb2a]" started-at="2021-11-29T15:32:11 CST" name="Demo2" finished-at="2021-11-29T15:32:11 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo2 -->
+      </class> <!-- Test.TestScenario -->
+    </test> <!-- Home Loan -->
+    <test started-at="2021-11-29T15:32:11 CST" name="Car Loan" finished-at="2021-11-29T15:32:11 CST" duration-ms="14">
+      <class name="Test.TestScenario3">
+        <test-method is-config="true" signature="MobileLogin()[pri:0, instance:Test.TestScenario3@6babf3bf]" started-at="2021-11-29T15:32:11 CST" name="MobileLogin" finished-at="2021-11-29T15:32:11 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLogin -->
+        <test-method signature="WebLogin()[pri:0, instance:Test.TestScenario3@6babf3bf]" started-at="2021-11-29T15:32:11 CST" name="WebLogin" finished-at="2021-11-29T15:32:11 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLogin -->
+        <test-method signature="TestAPI()[pri:0, instance:Test.TestScenario3@6babf3bf]" started-at="2021-11-29T15:32:11 CST" name="TestAPI" finished-at="2021-11-29T15:32:11 CST" depends-on-methods="Test.TestScenario3.WebLogin" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAPI -->
+        <test-method is-config="true" signature="MobileAPCall()[pri:0, instance:Test.TestScenario3@6babf3bf]" started-at="2021-11-29T15:32:11 CST" name="MobileAPCall" finished-at="2021-11-29T15:32:11 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileAPCall -->
+      </class> <!-- Test.TestScenario3 -->
+    </test> <!-- Car Loan -->
+  </suite> <!-- Loan Department -->
+</testng-results>
